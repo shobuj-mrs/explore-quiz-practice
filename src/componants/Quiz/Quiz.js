@@ -7,8 +7,8 @@ const Quiz = ({ quiz }) => {
             <img className='p-3' src={logo} alt="" />
             <div className='flex justify-between px-4 my-3'>
                 <h1 className='text-2xl text-white font-semibold'>{name}</h1>
-                <h4 className='text-xl text-white font-medium'>Q-{total}</h4>
-                <button className='btn bg-teal-700	rounded-lg text-white px-4 text-xl font-medium'>Practice</button>
+                <h4 className='text-xl text-white font-medium'>Q- {total}</h4>
+                <button className='btn bg-teal-600	rounded-lg text-white px-4 text-xl font-medium hover:bg-teal-800'>Practice </button>
             </div>
         </div>
     );
