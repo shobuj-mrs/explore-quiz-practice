@@ -4,6 +4,7 @@ import Main from './layout/Main';
 import Home from './componants/Home/Home';
 import Blogs from './componants/Blogs/Blogs';
 import Statics from './componants/Statics/Statics';
+import ErrorPage from './componants/ErrorPage/ErrorPage';
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
     {
       path: '/',
       element: <Main></Main>,
+      errorElement: <ErrorPage></ErrorPage>,
       children: [
         {
           path: '/',
