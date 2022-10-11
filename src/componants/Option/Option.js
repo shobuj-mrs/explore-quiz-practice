@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Statics = () => {
+const Option = () => {
     return (
         <div>
-            <h1>This is ....</h1>
+
         </div>
     );
 };
 
-export default Statics;
+export default Option;
