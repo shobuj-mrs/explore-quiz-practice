@@ -1,3 +1,44 @@
+
+# The Daily Quiz Challenge
+
+* Turning the quizzes online can be a task, but you can always learn through it! We will discuss today how you can conduct a quiz competition for students and how you can improvise your pre-existing online quiz competitions.
+*  A quiz competition in college can be very different from a quiz competition for school students but the syntax and format remain the same throughout.
+* These competitions are meant for the purpose of entertainment through a knowledgeable or a casual quiz. These are usually found online.
+## Documentation
+
+[Netlify live link :](https://daily-quiz-challenge.netlify.app/)
+https://daily-quiz-challenge.netlify.app/
+
+
+Quiz API Links :
+
+Get all quiz topics: https://openapi.programming-hero.com/api/quiz
+
+Get topic details by topic id: https://openapi.programming-hero.com/api/quiz/${id}
+
+Example: https://openapi.programming-hero.com/api/quiz/1
+
+## Deployment
+
+To deploy this project run
+
+```bash or command line
+  npm run build and the build file Drag and drop your site output folder here of the netlify.app
+
+```
+
+
+## 🚀 About Me
+I'm a junior web developer. This platfrom my journey is 2022 pray for me ...
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
