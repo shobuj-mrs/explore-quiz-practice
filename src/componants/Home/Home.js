@@ -8,6 +8,22 @@ const Home = () => {
     // console.log(topics);
     return (
         <div className='w-11/12 bg-gradient-to-br mx-auto '>
+
+            <div className='grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-4'>
+                <img className='rounded-lg w-full my-4' src="https://images.unsplash.com/photo-1633356122544-f134324a6cee?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cmVhY3QlMjBqc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="" />
+                <p className='text-xl font-medium bg-slate-700  lg:col-span-2  text-white p-3 my-4 rounded-lg'>Today in this post we will discuss about online quiz competition. You already know that Digital Bangladesh Quiz registration process has started. From here you can register for this quiz competition online. You will also find out how to participate in this competition.We are now going to discuss the upcoming quiz competition. So if you want to participate in any kind of quiz competition on education? However, you can find out about this from here.Many people want to participate in the online quiz competition. But I will say that you are in the right place. Here you can participate in this quiz competition.</p>
+            </div>
+
+
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 my-6 '>
+                {
+                    topics.map(topic => <Topics
+                        key={topic.id}
+                        topic={topic}
+                    ></Topics>)
+                }
+            </div>
+
             <div className='grid grid-cols-1 md:grid-cols-2 gap-3 my-6 ' >
                 <div className='border p-3 bg-slate-700 rounded-lg'>
                     <h1 className='text-4xl text-orange-500 my-3 font-semibold'>React</h1>
@@ -26,15 +42,6 @@ const Home = () => {
                     <h1 className='text-4xl  text-orange-500 my-3 font-semibold'>Git</h1>
                     <p className='text-white'>Git is free and open source software for distributed version control: tracking changes in any set of files, usually used for coordinating work among programmers collaboratively developing source code during software development.</p>
                 </div>
-            </div>
-
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 my-6 '>
-                {
-                    topics.map(topic => <Topics
-                        key={topic.id}
-                        topic={topic}
-                    ></Topics>)
-                }
             </div>
         </div>
     );

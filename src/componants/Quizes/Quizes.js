@@ -11,7 +11,7 @@ const Quizes = () => {
 
     return (
         <div className='text-center bg-slate-300	 '>
-            <h1 className=' text-4xl font-semibold py-10'>Quiz Type : {name}</h1>
+            <h1 className=' text-5xl text-teal-600 font-semibold py-10'>Quiz Type : {name}</h1>
             {
                 questions.map(ques => <Question
                     key={id}
